@@ -31,6 +31,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Library-Core\src\Core\Landis.Core.csproj" />
+    <ProjectReference Include="..\..\Library-Core\src\Implementation\Landis.Core.Implementation.csproj" />
+    <ProjectReference Include="..\..\Library-Metadata\src\Metadata.csproj" />
+  </ItemGroup>
+
+  <!--
+  <ItemGroup>
     <PackageReference Include="Landis.Core" Version="2.0.0" />
   </ItemGroup>
 
@@ -39,5 +46,6 @@
       <HintPath>..\..\..\..\..\..\Program Files\LANDIS-II-v7\extensions\Landis.Library.Metadata-v2.dll</HintPath>
     </Reference>
   </ItemGroup>
+  -->
   
 </Project>
